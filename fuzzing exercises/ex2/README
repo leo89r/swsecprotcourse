@@ -1,0 +1,13 @@
+This application takes two strings as command line arguments and joins them together, but picking only the lowercase letters from the first string and the uppercase letters from the second one.
+
+Example:
+
+./ex1-2 HeLLo SecuriTY
+  HeLLo + SecuriTY = eoSTY
+
+Try to:
+1. Write a random fuzzer that calls the application several times (in any language that you like).
+2. There are a couple of memory related bug. Can your fuzzer spot it?
+3. Try using a sanitizer or Valgrind with your fuzzer.
+
+Note: In a script, to generate a random string with N characters, you can use openssl rand -base64 N

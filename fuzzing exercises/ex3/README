@@ -1,0 +1,21 @@
+This application takes as the first CLI argument the pathname of a textual file. The program prints the content of the file quadruplicating the spaces.
+
+For instance, if the file example.txt contains:
+
+Lorem ipsum dolor sit amet,
+consectetur adipisci elit,
+sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
+
+The program execution will be:
+
+./ex2-1 example.txt
+
+Lorem    ipsum    dolor    sit    amet,
+consectetur    adipisci    elit,
+sed    eiusmod    tempor    incidunt    ut    labore    et    dolore    magna    aliqua.
+
+Try to:
+
+1) Fuzz (for a while) the application with AFL.
+2) Can you make binomial() crash? What is the problem?
+3) There is a nasty hidden bug that allows access to the internal memory of the application. Can you find it? Can AFL find it?

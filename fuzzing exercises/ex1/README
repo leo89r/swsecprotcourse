@@ -1,0 +1,8 @@
+This program contains the function binomial(), which recursively computes the binomial coefficient (https://en.wikipedia.org/wiki/Binomial_coefficient), taking n and k as arguments.
+
+Try to:
+1) write a main() function to perform some random fuzzing of binomial()
+2) launch the application with your custom main() and compute the coverage of the application, checking if your random fuzzer is doing a good job
+3) can you make binomial() crash? what is the problem?
+
+Hint: if you see crashes, try to debug with gdb...
