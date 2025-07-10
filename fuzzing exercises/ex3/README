@@ -17,5 +17,4 @@ sed    eiusmod    tempor    incidunt    ut    labore    et    dolore    magna   
 Try to:
 
 1) Fuzz (for a while) the application with AFL.
-2) Can you make binomial() crash? What is the problem?
-3) There is a nasty hidden bug that allows access to the internal memory of the application. Can you find it? Can AFL find it?
+2) There is a nasty hidden bug that allows access to the internal memory of the application. Can you find it? Can AFL find it?
